@@ -4,6 +4,7 @@
     --accent-2: #00FF63;
     --bg-c: #fff5fe;
     --main-f-fam: Helvetica;
+    --bshade: 2px 3px 10px rgb(171, 171, 171);
 }
 
 body {
@@ -21,10 +22,15 @@ body {
     max-height: 70px;
     gap: 2em;
     background-color: var(--main-c);
+
+    box-shadow: var(--bshade);
+
+    margin-left: 0;
 }
 
 #bar-logo {
     margin-right: auto;
+
 }
 
 .bar-element {
@@ -45,6 +51,5 @@ body {
 
 .m-header {
     font-weight: bolder;
-    font-family: monospace;
     color: var(--accent-1);
 }
