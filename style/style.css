@@ -28,10 +28,17 @@ body {
 }
 
 .bar-element {
+  color: white;
   margin-right: 1em;
 }
 .bar-element:hover {
   text-decoration-line: underline;
+}
+
+.link:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .m-header {

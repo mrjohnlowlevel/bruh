@@ -28,11 +28,18 @@ body {
 }
 
 .bar-element {
+    color: white;
     margin-right: 1em;
 
     &:hover {
         text-decoration-line: underline;
     }
+}
+
+.link:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 
